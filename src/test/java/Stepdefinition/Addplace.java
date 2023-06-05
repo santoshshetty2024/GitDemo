@@ -74,6 +74,7 @@ public class Addplace extends Utils{
 		user_calls_with_http_request(resourcename, "GET");
 		String actualname = getJsonpath(response,"name");
 		assertEquals(actualname,expectedname);
+		System.out.println(actualname);
 	}
 	
 	@Given("Delete place Payload")
