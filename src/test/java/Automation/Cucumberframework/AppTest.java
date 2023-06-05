@@ -14,5 +14,7 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         System.out.println("It is always true");
+        System.out.println("Developed a new branch now");
+        System.out.println("GitStuff made changes to Develop branch");
     }
 }
