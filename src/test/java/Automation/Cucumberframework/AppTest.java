@@ -9,12 +9,10 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
+    //changes made here now need to checked in to GitDemo
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+        System.out.println("It is always true");
     }
 }
